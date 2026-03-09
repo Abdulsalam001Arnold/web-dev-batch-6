@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <h1 class="text-blue-600 text-[6rem] w-30 text-center">
+        This is the about page.
+    </h1>
+
+    <div class="h-14 bg-linear-to-r from-slate-700 to-blue-500"></div>
+<div class="h-14 bg-linear-to-t from-sky-500 to-indigo-500"></div>
+<div class="h-14 bg-linear-to-bl from-violet-500 to-fuchsia-500"></div>
+<div class="h-14 bg-linear-65 from-purple-500 to-pink-500"></div>
+
+<button class="bg-blue-700 border-none text-white hover:bg-red-600 duration-300 transition-all ease-in-out" onclick="handleClick()"> 
+    Get started
+</button>
+
+
+<div class="z-40 bg-pink-500 w-20 h-20 text-center rounded-[50%] flex items-center justify-center">05</div>
+<div class="z-30 bg-pink-500 w-20 h-20 text-center rounded-[50%] flex items-center justify-center">04</div>
+<div class="z-20 bg-pink-500 w-20 h-20 text-center rounded-[50%] flex items-center justify-center">03</div>
+<div class="z-10 bg-pink-500 w-20 h-20 text-center rounded-[50%] flex items-center justify-center">02</div>
+<div class="z-0 bg-pink-500 w-20 h-20 text-center rounded-[50%] flex items-center justify-center">01</div>
+
+    <!-- Form and input fields -->
+
+    <form action="">
+        <label for="">Full name:</label>
+        <input type="text" placeholder="Enter your name">
+        <br>
+        <label for="">Email:</label>
+        <input type="email" placeholder="Enter your email">
+        <br>
+        <label for="">Password:</label>
+        <input type="password" placeholder="Enter your password">
+        <br>
+        <label for="">Date of birth:</label>
+        <input type="date">
+        <br>
+        <input type="checkbox">
+        <br>
+        <label for="">Gender:</label>
+        <input type="radio">
+        <br>
+        <input type="submit" value="Click here to submit">
+    </form>
+
+    <div></div>
+</body>
+<!-- Internal script -->
+<script src="/index.js"></script>
+
+<script>
+    function handleClick() {
+        alert('Welcome to JS class!');
+    }
+</script>
+</html>

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic+Guides&family=WindSong:wght@400;500&display=swap');
+
+.windsong-regular {
+  font-family: "WindSong", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.windsong-medium {
+  font-family: "WindSong", cursive;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.playwrite-nz-basic-guides-regular {
+  font-family: "Playwrite NZ Basic Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+   background: #a07ccc;
+background: linear-gradient(313deg, rgba(160, 124, 204, 1) 8%, rgba(153, 0, 0, 1) 56%, rgba(232, 211, 183, 0.52) 100%);
+}
+
+
+h2{
+    text-shadow: 43px 46px 12px rgba(0,0,0,0.6);
+}
+
+
+
+
+
+
+
+
+
+
+/* selecting by tagname */
+/* h3 {
+    color: blue;
+    font-size: 50px;
+}
+
+.logo{
+    color: orange;
+} */
+
+#name{
+    color: green;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+    letter-spacing: 20px;
+}
+
+#box-1{
+    width: 15rem;
+    height: 15rem;
+    background-color: rgba(131, 152, 197, 0.76);
+    border-radius: 50%;
+}
+
+#box-2{
+    width: 15rem;
+    height: 15rem;
+    background-color: red;
+    color: white;
+    margin-left: 10rem;
+    margin-top: 10rem;
+    border-width: 4px;
+    border-style: dashed;
+    border-color: black;
+    box-shadow: 87px 81px 52px -43px rgba(0,0,0,0.75);
+-webkit-box-shadow: 87px 81px 52px -43px rgba(0,0,0,0.75);
+-moz-box-shadow: 87px 81px 52px -43px rgba(0,0,0,0.75);
+ left: 10rem;
+ position: relative;
+}
+
+
+#box-3{
+    width: 15rem;
+    height: 15rem;
+    background-color: blue;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+#box-4{
+    width: 15rem;
+    height: 15rem;
+    background-color: green;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+}
+
+#p-tag{
+    padding-top: 20px; 
+}
+
+#paragraph{
+    color: red;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
